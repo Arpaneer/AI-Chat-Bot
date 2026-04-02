@@ -9,7 +9,7 @@ import os
 
 # ================== API ==================
 # Initialize the client with the new SDK structure
-client = genai.Client(api_key="ENTER_YOUR_API_KEY")
+client = genai.Client(api_key="ENTER_YOUR_API_KEY").env
 
 # Updated to the current GA model (1.5-flash is deprecated)
 MODEL_ID = "gemini-2.5-flash" 
